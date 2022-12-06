@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="styles.css">
+<nav class="sitenavigation">
+   <h3 id="site-navigation">Site Navigation</h3>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Gaming.html">Gaming</a></li>
+  <li><a href="Music.html">Music</a></li>
+  <li><a href="Snowboarding.html">Snowboarding</a></li>
+</nav>
+<h2 id="-code-block-"><em>Code Block</em></h2>
+<p>This is my code block that I use for Calculus and Algebra equations. Great for when factoring is not an option. </p>
+<pre><code class="lang-python">from math <span class="hljs-keyword">import</span> sqrt
+
+check_input = True
+<span class="hljs-keyword">while</span> check_input:
+    a, b, c = eval(input(<span class="hljs-string">"Please enter the a, b, c coefficients of your quadratic equation: "</span>))
+    <span class="hljs-keyword">try</span>: 
+        <span class="hljs-keyword">float</span>(a), <span class="hljs-keyword">float</span>(b), <span class="hljs-keyword">float</span>(c)
+        check_input = False
+    except ValueError:
+        print(<span class="hljs-string">"Please make sure the coefficients are real numbers and try again"</span>)
+        check_input = True
+
+disc = b*b-4*a*c
+
+<span class="hljs-keyword">if</span> disc &gt;= 0:
+    x1 = (-b+sqrt(disc))/(2*a)
+    x2 = (-b-sqrt(disc))/(2*a)
+    print(<span class="hljs-string">"The roots of the equation are:"</span>, x1, x2)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">"The equation has no solutions"</span>)
+</code></pre>

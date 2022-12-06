@@ -1,0 +1,58 @@
+body, h2, h3, img, nav, table, li {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+body {       
+    background-color:
+     white;    
+     color: black
+  }
+
+  /* site navigation */
+ nav.sitenavigation {
+
+    background-color: #353b41;
+    color: white;;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    overflow: auto;
+  }
+  nav.sitenavigation li {
+    padding: 0.3em 0;
+    display: inline-block;
+
+  }
+  nav.sitenavigation li a {
+    padding: 0.2em 0.6em; 
+    display: inline-block;
+  }
+  nav.sitenavigation a:link {
+    text-decoration: none;
+    color: white;
+  }
+  nav.sitenavigation a:visited {
+    color: white;
+  }
+  nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+    background-color: blue;
+  }
+
+  #sammie_and_me {
+    align-items: center;
+  }
+
+    pre code{
+    background-color: #1b1a18;
+    color: lightblue;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
+
+  td {
+
+    border: 1px solid #999;
+  }
